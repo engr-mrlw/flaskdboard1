@@ -97,3 +97,5 @@ git tag v1.0.0 # Create a tag
 git push --tags # Push tags to remote
 
 https://copilot.microsoft.com/shares/RTWeHb2RM4PcefoC4xMST
+
+requests.exceptions.SSLError: HTTPSConnectionPool(host='dummyjson.com', port=443): Max retries exceeded with url: /products?limit=10 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
