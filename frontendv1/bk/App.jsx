@@ -1,8 +1,6 @@
 import { useEffect, useState, useMemo, useRef } from "react";
 import { fetchToken, fetchDashboard } from "./api";
 import { Bar } from "react-chartjs-2";
-import FlowRanking from "./FlowRanking";
-
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -11,7 +9,6 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-
 import "./App.css";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
@@ -119,7 +116,7 @@ function App() {
   const didRun = useRef(false);
 
   useEffect(() => {
-    if (didRun.current) return;
+    if (didRun.current) return; // prevents Strict Mode double-run
     didRun.current = true;
 
     loadDashboard();
@@ -210,34 +207,6 @@ function App() {
             ))}
           </ul>
         </div>
-      </section>
-
-      {/* -----------------------------
-          FLOW CHART RANKINGS
-      ------------------------------ */}
-      <section className="flow-section">
-
-        <FlowRanking
-          title="Top 5 Most Expensive Brands (Flow Ranking)"
-          items={topBrands}
-          labelKey="brand"
-          valueKey="total"
-        />
-
-        <FlowRanking
-          title="Top 5 Cities (Flow Ranking)"
-          items={topCities}
-          labelKey="city"
-          valueKey="count"
-        />
-
-        <FlowRanking
-          title="Top 10 Highest Rated Products (Flow Ranking)"
-          items={topRated}
-          labelKey="title"
-          valueKey="rating"
-        />
-
       </section>
 
       <section className="grid">
