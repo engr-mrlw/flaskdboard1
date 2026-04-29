@@ -35,6 +35,7 @@ def get_auth_headers():
     global access_token
     if not access_token:
         token = login_to_dummyjson()
+        print('token : ' + token)
         if not token:
             return None
     return {"Authorization": f"Bearer {access_token}"}
