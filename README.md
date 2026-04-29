@@ -31,6 +31,12 @@ http://localhost:8000/api/users
 
 http://localhost:8000/api/dashboard
 
+Swagger:
+
+pip install flasgger
+
+http://localhost:8000/apidocs
+
 
 Frontend:
 
@@ -54,3 +60,10 @@ Port 5173 is in use, trying another one...
   ➜  Local:   http://localhost:5174/
   ➜  Network: use --host to expose
 
+
+Test the connection
+In your browser console:
+
+fetch("http://localhost:8000/api/token")
+  .then(r => r.json())
+  .then(console.log)

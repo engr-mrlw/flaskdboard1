@@ -1,9 +1,11 @@
+from flasgger import Swagger
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import requests
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173", "http://localhost:3000"])
+Swagger(app)
 
 DUMMYJSON_BASE = "https://dummyjson.com"
 USERNAME = "emilys"
