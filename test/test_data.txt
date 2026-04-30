@@ -1,0 +1,187 @@
+{
+  "collector": {
+    "countryCode": "WEREWR",
+    "currencyCode": "EWEWR",
+    "data": [
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "Prep",
+        "routeCodeLabel": "Prep",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A1",
+        "routeCodeLabel": "A1",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A2",
+        "routeCodeLabel": "A2",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A3",
+        "routeCodeLabel": "A3",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A4",
+        "routeCodeLabel": "A4",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A5",
+        "routeCodeLabel": "A5",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A6",
+        "routeCodeLabel": "A6",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A7",
+        "routeCodeLabel": "A7",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "A8",
+        "routeCodeLabel": "A8",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "SC",
+        "routeCodeLabel": "SC",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "-HP",
+        "routeCodeLabel": "-HP",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": "Out",
+        "integration": null,
+        "routeCode": "LT",
+        "routeCodeLabel": "LT",
+        "routeStep": null,
+        "status": "finish"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "F",
+        "routeCodeLabel": "F",
+        "routeStep": null,
+        "status": "wait"
+      },
+      {
+        "attachedRoute": null,
+        "attachedRoutes": null,
+        "currentOptType": null,
+        "integration": null,
+        "routeCode": "Turn-In",
+        "routeCodeLabel": "Turn-In",
+        "routeStep": null,
+        "status": "wait"
+      }
+    ],
+    "message": null,
+    "requestId": "07c8f2f73409ac3527123d374e00bfa6",
+    "status": 200
+  },
+  "testview": {
+    "code": 200,
+    "data": {
+      "items": [
+        {
+          "code_version": null,
+          "config": {},
+          "customer": "",
+          "customer_ipn": "4",
+          "duration": null,
+          "error_msg": null,
+          "finished": "2026-04-21T05:44:35",
+          "fixture_sn": "SNUM",
+          "guti": null,
+          "hardware": {},
+          "id": 4359,
+          "jar_exists": "true",
+          "model": "X112CB300H-61",
+          "operation": "_TEST",
+          "parent_id": null,
+          "started": "2026-04-20T23:50:05",
+          "states": {},
+          "status": "SUCCEED",
+          "test_flow": [],
+          "uut_error_infos": [],
+          "uut_sn": "GNUM"
+        }
+      ],
+      "page_info": {
+        "count": 1,
+        "page_num": 1,
+        "page_size": 1
+      }
+    },
+    "msg": "OK"
+  }
+}
